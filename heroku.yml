@@ -2,7 +2,8 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: bundle exec rackup config.ru
+  web:  bash -c 'ls -a'
+#   web: bundle exec rackup config.ru
 #   worker:
 #     command: python myworker.py
 #     image: web

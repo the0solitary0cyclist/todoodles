@@ -2,6 +2,7 @@
 FROM lcxat/cypress-ruby
 RUN mkdir ./app
 COPY app.rb ./app
+COPY . .
 # COPY . .
 # COPY . /e2e
 # WORKDIR /e2e

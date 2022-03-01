@@ -5,7 +5,7 @@ run:
 #   web:  bash -c 'pwd'
 #   web:  bash -c 'ls -a'
 #   web: bash -c 'ls -a' && bundle exec install && bundle exec rackup config.ru
-  web: bash -c 'ls -a' bundle exec rackup config.ru
+  web: bash -c 'ls -a' && bundle exec rackup config.ru
 #   worker:
 #     command: python myworker.py
 #     image: web
